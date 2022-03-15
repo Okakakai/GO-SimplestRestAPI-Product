@@ -1,9 +1,9 @@
 package main
 
 import (
-	"go-productapi/controllers"
+	"github.com/Okakakai/Go-productAPI/controllers"
 )
 
 func main() {
-
+	controllers.StartWebServer()
 }
